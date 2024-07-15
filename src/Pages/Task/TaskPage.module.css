@@ -1,0 +1,49 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px;  
+    font-size: 24px;
+    font-weight: 500;
+    color:black;
+    background-color: #fff;
+}
+
+.Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    width: 50vw;
+    max-height: 70vh;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);    
+}
+
+@media only screen and (max-width: 768px) {
+    .Container {
+        position: absolute;
+        top: 50%;
+        left: 50%;    
+        width: 70vw;
+        max-height: 550px;
+        transform: translate(-50%, -50%);
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);    
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .Container {
+        position: absolute;
+        top: 50%;
+        left: 50%;    
+        width: 90vw;
+        max-height: 550px;
+        transform: translate(-50%, -50%);
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.22);    
+    }
+}
